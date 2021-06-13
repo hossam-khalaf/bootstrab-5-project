@@ -10729,5 +10729,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.7rem 2.36rem 0.7rem 0.5rem;
+  font-weight: 600;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #9926f0;
+  width: 1.7rem;
+  height: 1.7rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 1.8;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.6), rgba(209, 34, 227, 0.6));
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.6), rgba(209, 34, 227, 0.6));
+}
+.menu li {
+  padding: 0 0.6rem;
+}
+.menu li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+}
 
 /*# sourceMappingURL=style.css.map */
